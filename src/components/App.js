@@ -151,6 +151,7 @@ function App() {
           navigate('/');
           setEmail(data.email);
         })
+        .catch(err => console.log(err));
     }
   }
 
